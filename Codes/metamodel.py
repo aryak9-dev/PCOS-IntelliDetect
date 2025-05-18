@@ -40,7 +40,7 @@ with open('Model/NB_model.pkl', 'rb') as f:
 with open('Model/rf_model_best.pkl', 'rb') as f:
     rf_model = pickle.load(f)
 
-with open('Model_XGBoost/xgb_model.pkl', 'rb') as f:
+with open('Model/xgb_model.pkl', 'rb') as f:
     xgb_model = pickle.load(f)
 
 # === Load and Clean Data ===
