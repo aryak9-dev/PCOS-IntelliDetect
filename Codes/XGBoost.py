@@ -65,7 +65,7 @@ print("Training Accuracy:", xgb_model.score(X_train, y_train))
 print("Testing Accuracy:", xgb_model.score(X_test, y_test))
 
 # Save model
-model_dir = "C:/Users/hp/Desktop/Project/PCOS Prediction/Model_XGBoost"
+model_dir = "C:/Users/hp/Desktop/Project/PCOS Prediction/Model"
 os.makedirs(model_dir, exist_ok=True)
 pickle.dump(xgb_model, open(f"{model_dir}/xgb_model.pkl", "wb"))
 
