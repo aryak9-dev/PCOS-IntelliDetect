@@ -59,13 +59,61 @@ PCOS IntelliDetect predicts whether a patient is likely to have PCOS based on me
 
 ---
 
+## 🌳 Final Model
+
+The final model used in this project is a:
+
+👉 **Decision Tree Classifier**
+
+- Selected based on performance and interpretability  
+- Provides clear decision rules for prediction  
+- Helps in understanding feature importance  
+
+---
+
+## 📈 Feature Importance Insights
+
+From the trained model:
+
+- **Overweight** is the most important feature  
+- Followed by:
+  - Period Length  
+  - Irregular or missed periods  
+  - Exercise frequency  
+
+👉 This shows lifestyle and menstrual patterns are key indicators in prediction  
+
+---
+
+## 🌐 Web Interface
+
+- The frontend interface is built using HTML and CSS  
+- The main entry page:
+
+👉 **`index.html` is located inside the `templates/` folder**
+
+- It takes user input and sends it to the model for prediction  
+
+---
+## 📈 Key Insights from Model
+
+- Overweight is the most influential factor in predicting PCOS  
+- Menstrual cycle-related features (irregular periods, cycle length) are strong predictors  
+- Lifestyle factors such as exercise and eating habits also contribute to prediction  
+- Physical symptoms like hair growth and acne have moderate importance  
+- Some features such as mood swings and fatigue have minimal impact on the model  
+
+These insights align with real-world understanding of PCOS and highlight the importance of lifestyle and hormonal indicators.
+
+---
+
 ## 📁 Project Structure
 
 PCOS-IntelliDetect/
 │── dataset/
 │── codes/
 │── model/model.pkl
-│── scripts/
+│── templates/index.html
 │── README.md
 
 ---
