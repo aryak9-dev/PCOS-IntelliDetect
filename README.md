@@ -72,12 +72,12 @@ PCOS-IntelliDetect/
 
 ## ▶️ How to Run
 
+
 ```bash
 git clone https://github.com/aryak9-dev/PCOS-IntelliDetect.git
 cd PCOS-IntelliDetect
 
 python3 -m venv venv
 source venv/bin/activate
-pip install -r requirements.txt
 python app.py
 
